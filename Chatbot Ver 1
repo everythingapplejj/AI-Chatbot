@@ -18,4 +18,4 @@ def sample_question(prompt):
 
 while True:
     user = input("User:")
-    print(sample_question(user))
+    print("Computer:",sample_question(user))
